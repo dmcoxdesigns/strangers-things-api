@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+* {
+  font-family: "Courier", sans-serif;
+  color: navy;
+  background-color: beige;
+}
+h1 {
+  font-family: "Special Elite", cursive;
+  color: blue;
+}
+h2 {
+  font-family: "Special Elite", cursive;
+  color: darkred;
+}
+h3 {
+  font-family: "Special Elite", cursive;
+  color: darkblue;
+}
+.headline {
+  font-family: "Special Elite", cursive;
+  font-size: 44px;
+  color: blue;
+  text-shadow: 2px 2px aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 15px 0px;
+}
+body {
+  font-family: "Special Elite", cursive;
+  color: navy;
+}
+.subheadline {
+  font-family: "Special Elite", cursive;
+  font-size: 22px;
+  color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px 5px 0px;
+}
+nav {
+  font-family: "Special Elite", cursive;
+  color: rebeccapurple;
+}
+.button {
+  font-family: "Special Elite", cursive;
+  border: 2px;
+  border-color: blue;
+  text-align: center;
+  background-color: bisque;
+}
+.deletebutton {
+  font-family: "Special Elite", cursive;
+  border: 3px;
+  border-color: red;
+  background-color: gray;
+}
+.warning {
+  font-family: "Special Elite", cursive;
+  border: 4px;
+  border-color: red;
+}
+.posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.singlepost {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 15px 0px;
+}
+aside {
+  display: flex;
+  justify-content: top;
+  align-items: right;
+}
